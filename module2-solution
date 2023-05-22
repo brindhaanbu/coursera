@@ -44,15 +44,17 @@
     }
 
     .subject1 {
+    border: 1px solid black;
+        text-align: center;
         float: right;
         width: 100px;
         padding: 5px;
         margin: 0px;
-        border: 1px solid black;
-        text-align: center;
         font-size: 125%;
         font-weight: bold;
         background-color: green;
+        
+        
     }
 
     .subject2 {
