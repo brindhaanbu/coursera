@@ -6,6 +6,7 @@
     <title>module2-solution</title>
 </head>
 <style>
+    /*basic style*/
     * {
         box-sizing: border-box;
     }
@@ -15,13 +16,11 @@
     }
 
     h1 {
-    font-weight: bold;
-        font-size: 175%;
+        margin: 100px;
         text-align: center;
         font-family: Helvetica;
-        
-        margin: 100px;
-        
+        font-weight: bold;
+        font-size: 175%;
     }
 
     section {
@@ -37,71 +36,84 @@
 
     div {
         position: relative;
+      margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
         background-color: gray;
         border: 1px solid black;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
+        
     }
 
     .subject1 {
-    border: 1px solid black;
+        border: 1px solid black;
         text-align: center;
+        font-size: 125%;
+        
+        margin: 0px;
+      
+        font-weight: bold;
+        background-color: rgb(214, 124, 124);
         float: right;
         width: 100px;
         padding: 5px;
-        margin: 0px;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: green;
-        
-        
     }
 
     .subject2 {
-       border: 1px solid black;
+        border: 1px solid black;
         text-align: center;
+        font-size: 125%;
+        
+        margin: 0px;
+      
+        font-weight: bold;
+        background-color: maroon;
         float: right;
         width: 100px;
         padding: 5px;
-        margin: 0px;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: blue;
 
     }
 
     .subject3 {
        border: 1px solid black;
         text-align: center;
+        font-size: 125%;
+        
+        margin: 0px;
+      
+        font-weight: bold;
+        background-color: yellow;
         float: right;
         width: 100px;
         padding: 5px;
-        margin: 0px;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: yellow;
 
     }
 
     .content {
-    color: black;
-        margin: 0px;
-        height: 200px;
-        overflow: auto;
         padding: 5px;
         border: none;
         background-color: gray;
         font-family: Helvetica;
-        
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
     }
 
     .row {
-        width: 60%;
+        width: 90%;
     }
 
-    
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+  
+
+   
+    }
 </style>
 
 <body>
@@ -114,18 +126,16 @@
             </p>
         </div>
     </section>
-
     <section class="column-lg-4 colmn-md-6 colmn-sm-12">
         <div>
             <p class="subject2">Beef</p>
-            <p class="content"> dummy text "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor..."</p>
+            <p class="content">dummy text "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor..."</p>
         </div>
     </section>
-
     <section class="column-lg-4 colmn-md-12 colmn-sm-12">
         <div>
             <p class="subject3">Sushi</p>
-            <p class="content"> dummy text "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor..."</p>
+            <p class="content">dummy text "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor..."</p>
         </div>
 </body>
 
