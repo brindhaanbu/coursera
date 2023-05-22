@@ -15,11 +15,13 @@
     }
 
     h1 {
-        margin: 100px;
+    font-weight: bold;
+        font-size: 175%;
         text-align: center;
         font-family: Helvetica;
-        font-weight: bold;
-        font-size: 175%;
+        
+        margin: 100px;
+        
     }
 
     section {
