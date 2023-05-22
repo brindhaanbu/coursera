@@ -1,6 +1,5 @@
 
-<style>
-    * {
+* {
         box-sizing: border-box;
     }
 
@@ -28,56 +27,58 @@
     }
 
     div {
-    background-color: gray;
-    
-        margin-left: auto;
+        position: relative;
+      margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
+        background-color: gray;
         border: 1px solid black;
         width: 100%;
-        position: relative;
         
     }
 
     .subject1 {
-          padding: 5px;
-        margin: 0px;
         border: 1px solid black;
-        
-        background-color: green;
-        float: right;
         text-align: center;
         font-size: 125%;
-        font-weight: bold;
-        width: 100px;
         
+        margin: 0px;
+      
+        font-weight: bold;
+        background-color: rgb(214, 124, 124);
+        float: right;
+        width: 100px;
+        padding: 5px;
     }
 
     .subject2 {
-        padding: 5px;
-        margin: 0px;
         border: 1px solid black;
-        
-        background-color: maroon;
-        float: right;
         text-align: center;
         font-size: 125%;
+        
+        margin: 0px;
+      
         font-weight: bold;
+        background-color: maroon;
+        float: right;
         width: 100px;
+        padding: 5px;
 
     }
 
     .subject3 {
-      padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        
-        background-color: green;
-        float: right;
+       border: 1px solid black;
         text-align: center;
         font-size: 125%;
+        
+        margin: 0px;
+      
         font-weight: bold;
+        background-color: yellow;
+        float: right;
         width: 100px;
+        padding: 5px;
+
     }
 
     .content {
@@ -95,10 +96,14 @@
         width: 90%;
     }
 
-    
-    }
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+  
 
-    
+   
     }
 </style>
-
