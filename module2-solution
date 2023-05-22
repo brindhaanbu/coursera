@@ -84,14 +84,15 @@
     }
 
     .content {
+    color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
         padding: 5px;
         border: none;
         background-color: gray;
         font-family: Helvetica;
-        color: black;
-        margin: 0px;
-        height: 200px;
-        overflow: auto;
+        
     }
 
     .row {
