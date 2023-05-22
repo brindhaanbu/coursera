@@ -6,7 +6,7 @@
     <title>module2-solution</title>
 </head>
 <style>
-    /*basic style*/
+   
     * {
         box-sizing: border-box;
     }
