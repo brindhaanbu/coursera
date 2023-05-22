@@ -1,2 +1,57 @@
-# coursera
-coursera repository
+<html>
+<head>
+<title> box model </title>
+<center>
+<h1>
+our menu
+</h1>
+<style>
+{
+margin: 0;
+padding: 0;
+background-color: black;
+box-sizing: border-box;}
+
+#box{
+
+background-color: grey;  
+  border: 2px solid black;
+padding: 10px 30px 10px 30px;
+padding edge: 1px 30px 1px 30px;
+margin: 40px;
+width: 300px;
+
+
+}
+#content{
+margin-bottom: 30px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="box">
+<section>
+<h2 id="chicken">chicken</h2> </section>
+<div id="content">lorem ipsum dolor</div>
+</div>
+
+<div id="box">
+<h2 id="beef">beef</h2>
+<div id="content">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor</div>
+</div>
+
+<div id="box">
+<h2 id="sushi">sushi</h2>
+<div id="content">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor dolor</div>
+</div>
+
+</body>
+
+
+</html>
