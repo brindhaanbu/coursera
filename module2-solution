@@ -58,27 +58,25 @@
     }
 
     .subject2 {
+       border: 1px solid black;
+        text-align: center;
         float: right;
-        color: white;
         width: 100px;
         padding: 5px;
         margin: 0px;
-        border: 1px solid black;
-        text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: maroon;
+        background-color: blue;
 
     }
 
     .subject3 {
-        color: black;
+       border: 1px solid black;
+        text-align: center;
         float: right;
         width: 100px;
         padding: 5px;
         margin: 0px;
-        border: 1px solid black;
-        text-align: center;
         font-size: 125%;
         font-weight: bold;
         background-color: yellow;
