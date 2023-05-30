@@ -78,7 +78,7 @@ p {
     margin: 0;
 }
 
-/* Desktop view */
+Desktop view 
 @media(min-width: 992px) {
     .box {
         display: grid;
