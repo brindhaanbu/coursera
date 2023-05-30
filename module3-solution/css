@@ -31,7 +31,7 @@ section {
     overflow: auto;
 }
 
-chicken {
+#chicken {
     border: 1px solid black;
     border-radius: 0.5rem;
 	text-align: center;
@@ -45,7 +45,7 @@ chicken {
 	background-color: hsl(1, 42%, 72%);
 }
 
-beef {
+#beef {
     border: 1px solid black;
     border-radius: 0.5rem;
 	text-align: center;
@@ -59,7 +59,7 @@ beef {
 	background-color: #C14643;
 }
 
-sushi {
+#sushi {
     border: 1px solid black;
     border-radius: 0.5rem;
 	text-align: center;
@@ -98,7 +98,31 @@ p {
     }
 }
 
+/* Tablet view */
+@media(min-width: 768px) and (max-width: 991px) {
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-auto-flow: row;
+    }
 
+    .item1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .item2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .item3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+}
 
 /* Mobile view */
 @media (max-width: 768px) {
